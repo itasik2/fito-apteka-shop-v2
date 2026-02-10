@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-02-10",
+  "totalEndpoints": 8,
+  "endpoints": [
+    {
+      "file": "app/api/ask/route.ts",
+      "route": "/api/ask",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "file": "app/api/auth/[...nextauth]/route.ts",
+      "route": "/api/auth/[...nextauth]",
+      "methods": []
+    },
+    {
+      "file": "app/api/checkout/route.ts",
+      "route": "/api/checkout",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "file": "app/api/cron/generate-post/route.ts",
+      "route": "/api/cron/generate-post",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "file": "app/api/posts/[id]/route.ts",
+      "route": "/api/posts/:id",
+      "methods": [
+        "DELETE",
+        "PUT"
+      ]
+    },
+    {
+      "file": "app/api/posts/route.ts",
+      "route": "/api/posts",
+      "methods": [
+        "GET",
+        "POST"
+      ]
+    },
+    {
+      "file": "app/api/products/[id]/route.ts",
+      "route": "/api/products/:id",
+      "methods": [
+        "DELETE",
+        "GET",
+        "PUT"
+      ]
+    },
+    {
+      "file": "app/api/products/route.ts",
+      "route": "/api/products",
+      "methods": [
+        "GET",
+        "POST"
+      ]
+    }
+  ]
+}
